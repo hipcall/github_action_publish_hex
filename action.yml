@@ -1,5 +1,9 @@
-name: 'Publish elixir packages to hex.pm'
+name: 'Publish elixir packages to hex.pm by Hipcall'
 description: 'Automate publishing packages on Hex.pm'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+
+branding:
+  icon: 'activity'
+  color: 'orange'
